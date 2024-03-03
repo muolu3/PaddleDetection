@@ -7,4 +7,5 @@ _BASE_: [
 ]
 
 snapshot_epoch: 16
-weights: output/ppyolo_r50vd_dcn_1x_coco/model_final
+weights: https://paddledet.bj.bcebos.com/models/ppyolo_r50vd_dcn_1x_coco.pdparams --infer_img=demo/000000014439.jpg
+-o use_gpu=true
